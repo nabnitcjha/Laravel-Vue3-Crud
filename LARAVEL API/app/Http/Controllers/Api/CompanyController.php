@@ -10,14 +10,26 @@ use App\Http\Resources\CompanyResource;
 
 class CompanyController extends Controller
 {
+    public $rules;
+
+    public function __construct()
+    {
+        $this->rules = [
+            'name' => 'required',
+            'email' => 'required|email|unique:companies',
+            'address' => 'nullable',
+            'website' => 'nullable',
+        ];
+    }
     public function index()
     {
         return CompanyResource::collection(Company::all());
     }
 
-    public function store(CompanyRequest $request)
+    public function store(Request $request)
     {
-        $company = Company::create($request->validate());
+        $data = $request->validate($this->rules);
+        $company = Company::create($data);
 
         return new CompanyResource($company);
     }
