@@ -26,13 +26,22 @@ class CompanyController extends Controller
         return CompanyResource::collection(Company::all());
     }
 
-    public function store(Request $request)
+    public function store(CompanyRequest $request)
     {
-        $data = $request->validate($this->rules);
-        $company = Company::create($data);
+        $validated = $request->validated();
+
+        $company = Company::create($validated);
 
         return new CompanyResource($company);
     }
+
+    // public function store(Request $request)
+    // {
+    //     $data = $request->validate($this->rules);
+    //     $company = Company::create($data);
+
+    //     return new CompanyResource($company);
+    // }
 
     public function show(Company $company)
     {
