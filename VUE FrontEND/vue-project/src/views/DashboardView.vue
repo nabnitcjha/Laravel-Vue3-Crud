@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-    import dashboard from '../components/dashboard/main.vue'
+    import dashboard from '../components/dashboard/index.vue'
 </script>
