@@ -3,7 +3,7 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="" />
+        <img src="../../assets/dashboard/assets/img/logo.png" alt="" />
         <span class="d-none d-lg-block">NiceAdmin</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -142,7 +142,7 @@
             <li class="message-item">
               <a href="#">
                 <img
-                  src="assets/img/messages-1.jpg"
+                  src="../../assets/dashboard/assets/img/messages-1.jpg"
                   alt=""
                   class="rounded-circle"
                 />
@@ -163,7 +163,7 @@
             <li class="message-item">
               <a href="#">
                 <img
-                  src="assets/img/messages-2.jpg"
+                  src="../../assets/dashboard/assets/img/messages-2.jpg"
                   alt=""
                   class="rounded-circle"
                 />
@@ -184,7 +184,7 @@
             <li class="message-item">
               <a href="#">
                 <img
-                  src="assets/img/messages-3.jpg"
+                  src="../../assets/dashboard/assets/img/messages-3.jpg"
                   alt=""
                   class="rounded-circle"
                 />
@@ -217,7 +217,7 @@
             data-bs-toggle="dropdown"
           >
             <img
-              src="assets/img/profile-img.jpg"
+              src="../../assets/dashboard/assets/img/profile-img.jpg"
               alt="Profile"
               class="rounded-circle"
             />
@@ -891,7 +891,7 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="assets/img/product-1.jpg" alt=""
+                            ><img src="../../assets/dashboard/assets/img/product-1.jpg" alt=""
                           /></a>
                         </th>
                         <td>
@@ -906,7 +906,7 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="assets/img/product-2.jpg" alt=""
+                            ><img src="../../assets/dashboard/assets/img/product-2.jpg" alt=""
                           /></a>
                         </th>
                         <td>
@@ -921,7 +921,7 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="assets/img/product-3.jpg" alt=""
+                            ><img src="../../assets/dashboard/assets/img/product-3.jpg" alt=""
                           /></a>
                         </th>
                         <td>
@@ -936,7 +936,7 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="assets/img/product-4.jpg" alt=""
+                            ><img src="../../assets/dashboard/assets/img/product-4.jpg" alt=""
                           /></a>
                         </th>
                         <td>
@@ -951,7 +951,7 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="assets/img/product-5.jpg" alt=""
+                            ><img src="../../assets/dashboard/assets/img/product-5.jpg" alt=""
                           /></a>
                         </th>
                         <td>
@@ -1156,7 +1156,7 @@
 
               <div class="news">
                 <div class="post-item clearfix">
-                  <img src="assets/img/news-1.jpg" alt="" />
+                  <img src="../../assets/dashboard/assets/img/news-1.jpg" alt="" />
                   <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
                   <p>
                     Sit recusandae non aspernatur laboriosam. Quia enim eligendi
@@ -1165,7 +1165,7 @@
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="assets/img/news-2.jpg" alt="" />
+                  <img src="../../assets/dashboard/assets/img/news-2.jpg" alt="" />
                   <h4><a href="#">Quidem autem et impedit</a></h4>
                   <p>
                     Illo nemo neque maiores vitae officiis cum eum turos elan
@@ -1174,7 +1174,7 @@
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="assets/img/news-3.jpg" alt="" />
+                  <img src="../../assets/dashboard/assets/img/news-3.jpg" alt="" />
                   <h4>
                     <a href="#"
                       >Id quia et et ut maxime similique occaecati ut</a
@@ -1187,7 +1187,7 @@
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="assets/img/news-4.jpg" alt="" />
+                  <img src="../../assets/dashboard/assets/img/news-4.jpg" alt="" />
                   <h4><a href="#">Laborum corporis quo dara net para</a></h4>
                   <p>
                     Qui enim quia optio. Eligendi aut asperiores enim
@@ -1196,7 +1196,7 @@
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="assets/img/news-5.jpg" alt="" />
+                  <img src="../../assets/dashboard/assets/img/news-5.jpg" alt="" />
                   <h4>
                     <a href="#">Et dolores corrupti quae illo quod dolor</a>
                   </h4>
