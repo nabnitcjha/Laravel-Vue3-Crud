@@ -891,7 +891,9 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="../../assets/dashboard/assets/img/product-1.jpg" alt=""
+                            ><img
+                              src="../../assets/dashboard/assets/img/product-1.jpg"
+                              alt=""
                           /></a>
                         </th>
                         <td>
@@ -906,7 +908,9 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="../../assets/dashboard/assets/img/product-2.jpg" alt=""
+                            ><img
+                              src="../../assets/dashboard/assets/img/product-2.jpg"
+                              alt=""
                           /></a>
                         </th>
                         <td>
@@ -921,7 +925,9 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="../../assets/dashboard/assets/img/product-3.jpg" alt=""
+                            ><img
+                              src="../../assets/dashboard/assets/img/product-3.jpg"
+                              alt=""
                           /></a>
                         </th>
                         <td>
@@ -936,7 +942,9 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="../../assets/dashboard/assets/img/product-4.jpg" alt=""
+                            ><img
+                              src="../../assets/dashboard/assets/img/product-4.jpg"
+                              alt=""
                           /></a>
                         </th>
                         <td>
@@ -951,7 +959,9 @@
                       <tr>
                         <th scope="row">
                           <a href="#"
-                            ><img src="../../assets/dashboard/assets/img/product-5.jpg" alt=""
+                            ><img
+                              src="../../assets/dashboard/assets/img/product-5.jpg"
+                              alt=""
                           /></a>
                         </th>
                         <td>
@@ -1156,7 +1166,10 @@
 
               <div class="news">
                 <div class="post-item clearfix">
-                  <img src="../../assets/dashboard/assets/img/news-1.jpg" alt="" />
+                  <img
+                    src="../../assets/dashboard/assets/img/news-1.jpg"
+                    alt=""
+                  />
                   <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
                   <p>
                     Sit recusandae non aspernatur laboriosam. Quia enim eligendi
@@ -1165,7 +1178,10 @@
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="../../assets/dashboard/assets/img/news-2.jpg" alt="" />
+                  <img
+                    src="../../assets/dashboard/assets/img/news-2.jpg"
+                    alt=""
+                  />
                   <h4><a href="#">Quidem autem et impedit</a></h4>
                   <p>
                     Illo nemo neque maiores vitae officiis cum eum turos elan
@@ -1174,7 +1190,10 @@
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="../../assets/dashboard/assets/img/news-3.jpg" alt="" />
+                  <img
+                    src="../../assets/dashboard/assets/img/news-3.jpg"
+                    alt=""
+                  />
                   <h4>
                     <a href="#"
                       >Id quia et et ut maxime similique occaecati ut</a
@@ -1187,7 +1206,10 @@
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="../../assets/dashboard/assets/img/news-4.jpg" alt="" />
+                  <img
+                    src="../../assets/dashboard/assets/img/news-4.jpg"
+                    alt=""
+                  />
                   <h4><a href="#">Laborum corporis quo dara net para</a></h4>
                   <p>
                     Qui enim quia optio. Eligendi aut asperiores enim
@@ -1196,7 +1218,10 @@
                 </div>
 
                 <div class="post-item clearfix">
-                  <img src="../../assets/dashboard/assets/img/news-5.jpg" alt="" />
+                  <img
+                    src="../../assets/dashboard/assets/img/news-5.jpg"
+                    alt=""
+                  />
                   <h4>
                     <a href="#">Et dolores corrupti quae illo quod dolor</a>
                   </h4>
@@ -1234,6 +1259,21 @@
   <!-- End Footer -->
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted } from "vue";
+onMounted(() => {
+  document
+    .querySelector(".toggle-sidebar-btn")
+    .addEventListener("click", function (event) {
+      event.preventDefault();
+      var target = document.querySelector(".page-wrapper");
+      if (target.classList.contains("toggle-sidebar")) {
+        target.classList.remove("toggle-sidebar");
+      } else {
+        target.classList.add("toggle-sidebar");
+      }
+    });
+});
+</script>
 
 <style lang="scss" scoped></style>
