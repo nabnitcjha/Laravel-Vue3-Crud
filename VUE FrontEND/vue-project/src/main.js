@@ -17,4 +17,4 @@ app.use(VueAxios, axios)
 app.provide('axios', app.config.globalProperties.axios)
 app.use(router)
 
-app.mount('#app')
+app.mount('.page-wrapper')
