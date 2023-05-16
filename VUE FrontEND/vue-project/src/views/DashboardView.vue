@@ -1,7 +1,7 @@
 <template>
-   <dashboard></dashboard>
+   <index-component></index-component>
 </template>
 
 <script setup>
-    import dashboard from '../components/dashboard/index.vue'
+    import IndexComponent from '../components/dashboard/IndexComponent.vue'
 </script>

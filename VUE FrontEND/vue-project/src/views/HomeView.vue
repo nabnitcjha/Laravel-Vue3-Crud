@@ -8,11 +8,9 @@ const count = ref(0);
 
 // functions that mutate state and trigger updates
 function axiosCall() {
-  debugger;
   axios
     .get("http://127.0.0.1:8000")
     .then((response) => {
-      debugger;
       console.log(response.data);
     });
 }
